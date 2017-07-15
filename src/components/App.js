@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-
-class App extends Component {
+import Popular from './Popular'
+// import PropTypes from 'prop-types'
+export default class App extends Component {
   render () {
-    return <div>
-      <h1>Hello, World!</h1>
-    </div>
+    return (
+      <div className='container'>
+        <Popular />
+      </div>
+    )
   }
 }
-
-export default App
