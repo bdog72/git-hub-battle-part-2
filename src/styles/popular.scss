@@ -8,7 +8,6 @@
     margin: 10px;
     cursor: pointer;
     font-size: 34px;
-    // font-size: 5vw;
   }
 }
 
@@ -23,7 +22,8 @@
   }
 
   .popular-rank {
-
+    font-size: 20px;
+    margin: 10px;
   }
 
   .space-list-items {
@@ -32,6 +32,6 @@
 
   .avatar {
     width: 150px;
-    border-radius: 50%;
+    border-radius: 40%;
   }
 }

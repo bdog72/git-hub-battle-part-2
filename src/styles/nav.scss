@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+
+  .active {
+    font-weight: bolder;
+    color: blue;
+  }
+
+  li {
+    margin-right: 25px;
+    font-family: 'Mouse Memoirs';
+    font-size: 35px;
+  }
+}
