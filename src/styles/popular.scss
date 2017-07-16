@@ -7,6 +7,31 @@
   li {
     margin: 10px;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 34px;
+    // font-size: 5vw;
+  }
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .popular-item {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .popular-rank {
+
+  }
+
+  .space-list-items {
+    margin-bottom: 7px;
+  }
+
+  .avatar {
+    width: 150px;
+    border-radius: 50%;
   }
 }
