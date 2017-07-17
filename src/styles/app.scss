@@ -10,6 +10,7 @@ html {
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  font-family: 'Mouse Memoirs';
 }
 
 ul {
@@ -28,4 +29,9 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+
+  .NF {
+    font-size: 7vw;
+    text-align: center;
+  }
 }
